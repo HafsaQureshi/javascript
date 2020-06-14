@@ -1,5 +1,6 @@
-                    //   chap:01
-// Write a script to greet your website visitor using JS alert
+  //###################### chap:01  ######################
+
+  // Write a script to greet your website visitor using JS alert
 // box.
 
 // alert("Hi!");
@@ -28,7 +29,7 @@
 
 
 
-
+//#################### CHAP:02 ################
          
 //   9. Store following string in a variable and show in alert and
 //   browser through JS
@@ -111,7 +112,7 @@
 //    document.write(name.bold() + " " + "Ordered" + " " + quantity.bold() + " " + tittle.bold() + " " + 'on XYZ Clothing store');
 
 
-// ############## CHAP:04
+// ############## CHAP:04  ##################
 // 1. Declare 3 variables in one statement.
 // var a , b , c;
 
@@ -136,7 +137,7 @@
 // document.write("<br>" + 'Variable names are case sensitive' + "<br>");
 // document.write('Variable names should not be JS keyword');
 
-// ############## CHAP:05
+// ############## CHAP:05 ##########################
 
 // 1. Write a program that take two numbers & add them in a
 // new variable. Show the result in your browser.
@@ -310,7 +311,7 @@
         // document.write("You will need "+ total_snack +"<br>"
         // +"chocalate to last you untill the last ripe old age of " +est_age);
 
-        // ###########CHAP:06-9
+        // ################## CHAP:06-9 ########################
 
 //         1. Write a program to take a number in a variable, do the
 // required arithmetic to display the following result in your
@@ -334,6 +335,7 @@
 // document.write("<br>" + ' the value of a is : ' + num);
 // var num = num-1;
 // document.write("<br>" + 'Now the value of a is : ' + num);
+
 // 2. What will be the output in variables a, b & result after
 // execution of the following script:
 // var a = 2, b = 1;
@@ -353,4 +355,395 @@
 // greet the user.
 // var name = prompt("enter your name ");
 // document.write('Hello ' + name )
+
+// 5. Write a program to take input a number from user &
+// display it’s multiplication table on your browser. If user
+// does not enter a new number, multiplication table of 5
+// should be displayed by default.
+
+// var num = prompt("Enter number here!")
+// document.write("<br> <br>"+"Table of " + num + "<br>");
+
+//       for( var i=1;i<=10;i++)
+//       {
+//         document.write(num);
+//         document.write( "x" )
+//         document.write( i )
+//         document.write("=")
+//         document.write((num*i));
+//         document.write("<br>");
+//       }
+
+//                  ques:06
+
+// document.write("<h3>SUBJECTS</h3>" + "<br>")
+// var sub1= prompt("enter subject 1")
+// var sub2= prompt("enter subject 2")
+// var sub3= prompt("enter subject 3")
+// document.write(sub1 + "<br>")
+// document.write(sub2 + "<br>")
+// document.write(sub3 + "<br>")
+// var total =300
+// document.write("<h3>TOTAL MARKS</h3>" + "<br>")
+// document.write(total + "<br>")
+// var mark1= prompt("enter marks of subject 1")
+// var mark2= prompt("enter marks of subject 2")
+// var mark3= prompt("enter marks of subject 3")
+// document.write("<h3>OBTAINED MARKS</h3>" + "<br>")
+// document.write(mark1 + "<br>")
+// document.write(mark2 + "<br>")
+// document.write(mark3 + "<br>")
+// var obtainedmarks = (mark1 + mark2 + mark3)
+// document.write(obtainedmarks + "<br>")
+
+//################### CHAP:6-9 ########################
+//   task1
+
+// var city = prompt("Enter the name of city")
+// if ( city === karachi ){
+//         document.write("Welcom to the city of light ");
+// }
+// else{
+//         document.write("HELLO USER")
+// }
+
+
+
+//   task2
+
+// var gender = prompt("Enter your gender")
+// if (gender === male )
+// {
+//         document.write("Good Mornimg Sir")
+// }
+// else{
+//         document.write("Good Mornimg Madam") 
+// }
+
+//     task5
+
+// a. var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+// b. var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// c. var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// d. var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+// e. if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+//  if("car" < "cat"){
+//         alert("car is smaller than cat");
+//         }
+
+
+
+
+
+
+//     task9
+
+
+// var num = 5;
+// document.write("Number = "+num+"<br>");
+// if(num % 2 == 0) {
+//    document.write('Number is odd!');
+// } else {
+//    document.write('Number is even!');
+// }
+
+
+
+//     task 11
+
+
+// var d=confirm("Are U Ready for your ans?");  
+       
+// if(d==true)
+// {
+
+// switch(c)
+//   {
+    
+//     case "+":
+//         c=a+b;
+//         alert("Please HIT the LIKE button  if U like it")
+//        document.write("your ans is "+c);
+//        alert("THANK U to visit MY CODE");
+//         break;
+
+//     case "-":
+//         c=a-b;
+//         alert("Please HIT the LIKE button  if U like it")
+//         document.write("your ans is "+c);
+//         alert("THANK U to visit MY CODE");
+//         break;
+        
+//     case "*":
+//        c=a*b;
+//        alert("Please HIT the LIKE button  if U like it")
+//        document.write("your ans is "+c);
+//        alert("THANK U to visit MY CODE");
+//        break;
+       
+//      case "/":
+//        c=a/b;
+//        alert("Please HIT the LIKE button  if U like it")
+//        document.write("your ans is "+c);
+//        alert("THANK U to visit MY CODE");
+//        break;
+ 
+//       default :
+//       alert("Please HIT the LIKE button  if U like it");
+//        document.write("you entered a invalid opertaor TRY AGAIN");
+//        alert("THANK U to visit MY CODE");
+//    }
+// }    
+//  else 
+//  {
+//     alert("Ooh U just missed the Ans Sorry Try Again") 
+//  }
+//  ######################   chap:11-12  ######################
+
+//            task 2
+
+// var num1, num2;
+// num1 = window.prompt("Input the First integer", "0");
+// num2 = window.prompt("Input the second integer", "0");
+                                                 
+// if(parseInt(num1, 10) > parseInt(num2, 10)) 
+//   { 
+//   console.log("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
+//   }   
+// else
+//   if(parseInt(num2, 10) > parseInt(num1, 10)) 
+//   {
+//   console.log("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
+//   }                  
+// else
+//   {
+//    console.log("The values "+ num1+ " and "+num2+ " are equal.");
+//   }
+  
+
+//        task 3
+//   function isPositive(num) {
+
+//         var result;
+    
+//         if (num >= 0) {
+//             result = true;
+//         } else if (num < 0) {
+//             result = false;
+//         }
+//         return result;
+//     }
+    
+//     var num;
+//     num = parseInt(prompt("Enter a number"));
+//     while (num != -1) {
+//         alert(isPositive(num));
+    
+//         if (isNaN(num)) {
+//             alert("No number entered. Try again");
+//             num = parseInt(prompt("Enter a number"));
+//             isPositive(num);
+//             while (num != -1) {
+//                 alert(isPositive(num));
+//             }
+//         }
+//     }
+
+//          task4
+
+// function isVowel(argument){
+
+// 	var text;
+// 	var argument = argument.toLowerCase();
+
+//     var vowels = (['a', 'e', 'i', 'o', 'u']);
+
+//     for (var i = 0; i <= vowels.length; i++){
+//         if (argument != vowels[i]) {
+//             continue;
+//         }
+//         return true;
+//     }
+//     return false;
+// }
+
+// // See if "A" is a vowel
+// var char = "A";
+
+// if (isVowel(char)) {
+// 	console.log(char + " is a vowel");
+// } else {
+// 	console.log(char + " is not a vowel");
+// }
+
+//      task6
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// alert( "Good day");
+// }
+// else{
+// alert ("Good evening");
+// }
+
+//################### CHAP: 14-16 ########################
+
+//        task 1&2
+// var array = []
+// var x = new Array(10);
+
+//         task 3
+//var car = "BMW";
+
+
+ //         task 4
+//var x = new Array(10);
+
+//         task 5
+// var anyBoxesChecked = [];
+//  var numeroPerguntas = 5;     
+//  for(int i=0;i<numeroPerguntas;i++)
+//  {
+//     anyBoxesChecked.push(false);
+//  }
+
+//         task 6
+//var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+//         task 10
+
+// var scoresOfStudents = [320, 230, 480, 120];
+// console.log(scoresOfStudents);
+// var sortedGrades = scoresOfStudents.sort(function(a,b) {
+// 	return a - b;
+// });
+
+// console.log(sorted_grades);
+
+// console.log(sortedGrades);
+//         task 11
+// var cityNames = ["karachi", "Lahore" , "Isalamabad" , "Quetta" , "Peshawar"]
+// document.write('Cities List ' + '<br>' + cityNames);
+
+// var copyList = ["Islamabad" , "Quetta"];
+
+// document.write('<br>'+' Selected Cities List ' + '<br>' + copyList);
+
+//         task 12
+
+     
+// var arr = ["This ", " is ", "my", "cat"];
+// document.write("Array"+":"+arr[0] + " ,"+ arr[1]+","+ arr[2] + " ,"+ arr[3] +"<br>"+"<br>");
+
+// document.write("String"+":"+arr[0] + " "+ arr[1]+ arr[2] + " "+ arr[3]);
+
+// ######################## CHAP: 17-20 ###########################
+
+//     task#01
+// var Arr=[[1,2],[3,4],[5,6]];
+
+// task#03
+
+// for(var i=0; i<=9;i++){
+//         document.write(i+1);
+//         document.write("<br>");
+
+// }
+//            tesk #04
+    
+// var num = parseInt(prompt('Enter a number'));
+// var len = parseInt(prompt('Enter a length for Table'));
+
+// document.write('Multiplication Table of ' + " " + num + " " + "of" + " " + "Length" + " " +len+"<br>")
+// for( var i=1;i<=len;i++)
+//       {
+//         document.write(num);
+//         document.write( "x" )
+//         document.write( i )
+//         document.write("=")
+//         document.write(num*i);
+//         document.write("<br>")
+// }
+
+//            tesk #05
+    
+// var fruits = ["apple" , "bananaa" ,"Mango" , "Orange" , "strawberry"];
+//  document.write( fruits[0] +"<br>"+fruits[1] +"<br>"+fruits[2] +"<br>"+fruits[3] +"<br>" +fruits[4] +"<br>");
+
+// for(i=0 ; i<fruits.length ; i++){
+// document.write( 'ELement at index' +" " + i + " " + fruits[i] + "<br>");
+// }
+
+//            tesk #08
+    
+// var array =  [24, 53, 78, 91, 12];
+// var largest= 0;
+
+// for (i=0; i<=largest;i++){
+//     if (array[i]>largest) {
+//         var largest=array[i];
+//     }
+// }
+
+
+
+// document.write('Array Items' + array + "<br>")
+// document.write("Largest number is" + largest);
+
+
+//            tesk #09
+    
+
+// const A = [24, 53, 78, 91, 12]
+// const min = Math.min(...A)
+// document.write('Array Items'+" " + A + "<br>")
+// document.write("smallest number is" + min);
+
+//              task#10
+
+// var num  = 5;
+// for(i=1 ; i<=20 ; i++){
+//         document.write(num*i);
+//         document.write(",");
+// }
+
+
+
+
+
+
+
+
+
+
 
